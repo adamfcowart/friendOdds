@@ -56,7 +56,7 @@ function handleTheClick() {
   numSelected = clickedCells.length;
   
   for (i = 0; i < numSelected; i++) {
-    requestify.request('http://localhost:3000/predictions', {
+    requestify.request('http://104.238.124.110:3000/predictions', {
     method: 'POST',
     body: {
       Username: inputUsername,
