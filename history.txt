@@ -1,0 +1,500 @@
+  213  npm start
+  214  npm start
+  215  npm start
+  216  npm start
+  217  npm start
+  218  npm start
+  219  npm start
+  220  npm start
+  221  npm start
+  222  npm start
+  223  npm start
+  224  npm start
+  225  npm start
+  226  npm start
+  227  npm start
+  228  npm start
+  229  npm start
+  230  npm start
+  231  npm start
+  232  npm start
+  233  npm start
+  234  npm start
+  235  npm start
+  236  npm start
+  237  npm start
+  238  npm start
+  239  npm start
+  240  npm start
+  241  npm start
+  242  npm start
+  243  npm start
+  244  npm start
+  245  npm start
+  246  npm start
+  247  npm start
+  248  npm start
+  249  npm start
+  250  npm start
+  251  npm start
+  252  npm start
+  253  npm start
+  254  npm start
+  255  npm start
+  256  npm start
+  257  npm start
+  258  npm start
+  259  npm start
+  260  npm start
+  261  npm start
+  262  npm start
+  263  npm start
+  264  npm start
+  265  npm start
+  266  npm start
+  267  npm start
+  268  npm start
+  269  npm start
+  270  npm start
+  271  npm start
+  272  npm start
+  273  npm start
+  274  npm start
+  275  npm start
+  276  npm start
+  277  npm start
+  278  npm start
+  279  npm start
+  280  npm start
+  281  npm start
+  282  npm start
+  283  npm start
+  284  npm start
+  285  npm start
+  286  npm start
+  287  npm start
+  288  npm start
+  289  npm start
+  290  npm start
+  291  npm start
+  292  npm start
+  293  export PATH=${PATH}:/usr/local/mysql/bin.
+  294  mysql
+  295  export PATH=${PATH}:/usr/local/mysql/bin
+  296  mysql
+  297  mysql -uroot -p
+  298  pwd
+  299  ./mysqladmin -u root password 'Cffa109@'
+  300  mysql --help
+  301  ssh
+  302  ssh 104.238.124.110
+  303  ssh adamfcowart@104.238.124.110
+  304  ifconfig
+  305  ipconfig
+  306  pwd
+  307  npm start
+  308  pwd
+  309  ls
+  310  cd Public/
+  311  ls
+  312  cd ..
+  313  cd ..
+  314  ls
+  315  cd Shared/
+  316  ls
+  317  cd SC\ Info/
+  318  pwd
+  319  ls
+  320  cd ..
+  321  cd ..
+  322  pwd
+  323  cd ..
+  324  ls
+  325  cd opt/
+  326  ls
+  327  cd cisco
+  328  ls
+  329  cd ../..
+  330  cd /usr/local
+  331  ls
+  332  cd mysql
+  333  ls
+  334  cd bin/mysql
+  335  l
+  336  ls
+  337  cd bin/
+  338  ls
+  339  mysql -uroot -p
+  340  mysql -uroot
+  341  cd mysql
+  342  mysql
+  343  bash mysql
+  344  bash mysql -uroot
+  345  pwd
+  346  ls
+  347  cd Documents/
+  348  ls
+  349  cd myExpressApp/
+  350  npm start
+  351  npm start
+  352  npm install mysql –save
+  353  npm install mysql
+  354  npm install cors
+  355  npm install
+  356  code .
+  357  code .
+  358  pwd
+  359  ls
+  360  mkdir models
+  361  ls
+  362  npm start
+  363  npm start
+  364  npm start
+  365  npm start
+  366  npm start
+  367  npm start
+  368  npm start
+  369  npm start
+  370  npm start
+  371  npm start
+  372  npm start
+  373  npm start
+  374  npm start
+  375  npm start
+  376  npm start
+  377  npm start
+  378  npm start
+  379  cd ..
+  380  ls
+  381  cd friendOdds/
+  382  npm start
+  383  npm start
+  384  npm start
+  385  ssh acowart@23.229.221.100
+  386  ssh adamfcowart@23.229.221.100
+  387  vim ssh_key.txt
+  388  vim deployment.txt
+  389  vim ssh_ket.txt
+  390  vim ssh_key.txt 
+  391  chmod 600 ssh_key.txt 
+  392  ssh -i ssh_key.txt acowart@23.229.221.100
+  393  ls
+  394  ssh -i id_rsa acowart@23.229.221.100
+  395  chmod 600 id_rsa
+  396  ssh -i id_rsa acowart@23.229.221.100
+  397  ssh -i id_rsa adamfcowart@23.229.221.100
+  398  ssh -i id_rsa 23.229.221.100
+  399  ssh-add -K id_rsa
+  400  ssh -i id_rsa 23.229.221.100
+  401  ssh -i id_rsa acowart@23.229.221.100
+  402  ssh -i id_rsa adamfcowart@23.229.221.100
+  403  ssh adamfcowart@23.229.221.100
+  404  ssh acowart@23.229.221.100
+  405  ssh acowart@23.229.221.100
+  406  pwd
+  407  ls
+  408  rm id_rsa 
+  409  ls
+  410  ssh acowart@23.229.221.100
+  411  ssh 23.229.221.100
+  412  ssh adamfcowart@23.229.221.100
+  413  ssh root@23.229.221.100
+  414  pwd
+  415  cd Documents/
+  416  ls
+  417  cd friendOdds/
+  418  ssh-keygen
+  419  ssh acowart@23.229.221.100
+  420  ssh 23.229.221.100
+  421  ssh 23.229.221.100
+  422  ssh -i id_rsa acowart@23.229.221.100
+  423  ssh -i ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClqV3yFf8Bn2gR3la+Edl98hN2HHvRkbM/zKuOznTw3NGzHAjrtMblTtDlceSyTdnS9QKmXHo2aU7FzkCNPbOk/Dklw68qPKTuhksaTBd4MFtmlMVqUIr+JZNogYEuceH+/nHK+YXr5Q+43O0b8QMrd1to4vBkHND2TilOsvlyxyMPxZcMOC+bI4FxrAYKTRSvcKrzgnL7J06V8nB0wC53PI5kbYrxjxyZOHLutq7lwlyjIPYn45r9kRv0nIf/PVbfsp0vebDbq19S5VA/Q8Qt1w937Hg8vG9UU6SsnwAae9pAnmuI6R2vV9Fh9iH0gt9RJikxQoSprVz8IWSK/Kz1 adamcowart@cpe-172-100-0-154.twcny.res.rr.com
+  424  pwd
+  425  ssh -i /Users/adamcowart/.ssh/id_rsa acowart@23.229.221.100
+  426  ssh -i /Users/adamcowart/.ssh/id_rsa adamfcowart@23.229.221.100
+  427  ssh -i /Users/adamcowart/.ssh/id_rsa adamfcowart@23.229.221.100
+  428  ssh -i /Users/adamcowart/.ssh/id_rsa adamfcowart@23.229.221.100
+  429  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  430  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  431  sudo yum update
+  432  sudo yum update
+  433  sudo yum update
+  434  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  435  ls
+  436  pwd
+  437  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  438  ls
+  439  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  440  pwd
+  441  ls
+  442  cd Documents/
+  443  ls
+  444  pwd
+  445  l
+  446  ls
+  447  gzip friendOdds2
+  448  tar -zcvf archive.tar.gz friendOdds2 
+  449  ls
+  450  pwd
+  451  cd friendOdds
+  452  ls
+  453  scp -r /Users/adamcowart/Documents/friendOdds/ d8zhbawgujwy@23.229.221.100:/home/d8zhbawgujwy
+  454  ssh -i /Users/adamcowart/.ssh/id_rsa d8zhbawgujwy@23.229.221.100
+  455  ssh adamfcowart@104.238.124.110
+  456  wd
+  457  pwd
+  458  ssh adamfcowart@104.238.124.110
+  459  npm start
+  460  ssh adamfcowart@104.238.124.110
+  461  cd Documents/
+  462  ls
+  463  tar -zcvf friendOdds.tar.gz friendOdds/
+  464  scp friendOdds.tar.gz adamfcowart@104.238.124.110 ~
+  465  scp friendOdds.tar.gz adamfcowart@104.238.124.110
+  466  pwd
+  467  ls
+  468  scp
+  469  scp friendOdds.tar.gz adamfcowart@104.238.124.110:/
+  470  scp friendOdds.tar.gz root@104.238.124.110:/
+  471  scp friendOdds.tar.gz root@104.238.124.110:/home/adamfcowart
+  472  scp friendOdds.tar.gz root@104.238.124.110:/home/adamfcowart
+  473  scp friendOdds.tar.gz root@104.238.124.110:/home/adamfcowart
+  474  l
+  475  pwd
+  476  ls
+  477  webpack
+  478  exit
+  479  npm start
+  480  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  481  npm start
+  482  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  483  npm start
+  484  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  485  npm start
+  486  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  487  npm start
+  488  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  489  npm start
+  490  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  491  npm start
+  492  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  493  npm start
+  494  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  495  npm start
+  496  ./node_modules/webpack/bin/webpack.js public/javascripts/src/createBetsTable.js public/javascripts/createBetsTable.js 
+  497  npm start
+  498  ping https://staging.emaplan.com/ema/SignIn?ema
+  499  ping https://staging.emaplan.com
+  500  npm start
+  501  pwd
+  502  ls
+  503  cd Documents/
+  504  ls
+  505  cd ..
+  506  ks
+  507  ls
+  508  cd friendOdds.tar.gz 
+  509  cd friendOdds
+  510  ls
+  511  cd Do
+  512  pwd
+  513  cd Documents/
+  514  cd friendOdds
+  515  npm start
+  516  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  517  npm start
+  518  npm start
+  519  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  520  npm start
+  521  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  522  npm start
+  523  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  524  npm start
+  525  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  526  npm start
+  527  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  528  npm start
+  529  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  530  npm start
+  531  npm start
+  532  npm start
+  533  npm start
+  534  npm start
+  535  npm start
+  536  npm start
+  537  npm start
+  538  npm start
+  539  npm start
+  540  npm start
+  541  npm start
+  542  npm start
+  543  npm start
+  544  npm start
+  545  npm start
+  546  npm start
+  547  npm start
+  548  npm start
+  549  npm start
+  550  npm start
+  551  npm start
+  552  npm start
+  553  npm start
+  554  npm start
+  555  npm start
+  556  npm start
+  557  npm start
+  558  npm start
+  559  npm start
+  560  npm start
+  561  npm start
+  562  npm start
+  563  npm start
+  564  npm start
+  565  npm start
+  566  npm start
+  567  npm start
+  568  npm start
+  569  npm start
+  570  npm start
+  571  npm start
+  572  npm start
+  573  npm start
+  574  npm start
+  575  npm start
+  576  npm start
+  577  npm start
+  578  npm start
+  579  npm start
+  580  npm start
+  581  npm start
+  582  npm start
+  583  npm start
+  584  npm start
+  585  npm start
+  586  npm start
+  587  npm start
+  588  npm start
+  589  npm start
+  590  npm start
+  591  npm start
+  592  npm start
+  593  npm start
+  594  npm start
+  595  npm start
+  596  npm install request
+  597  npm start
+  598  npm start
+  599  npm start
+  600  npm start
+  601  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  602  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  603  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  604  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  605  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  606  npm install fs
+  607  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  608  npm install fs --save
+  609  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  610  npm install requestify
+  611  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  612  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  613  npm start
+  614  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  615  npm start
+  616  npm start
+  617  npm start
+  618  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  619  npm start
+  620  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  621  npm start
+  622  npm start
+  623  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  624  npm start
+  625  npm start
+  626  npm start
+  627  npm start
+  628  npm start
+  629  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  630  npm start
+  631  npm start
+  632  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  633  npm start
+  634  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  635  npm start
+  636  npm start
+  637  npm start
+  638  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  639  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  640  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  641  npm start
+  642  npm start
+  643  npm start
+  644  npm start
+  645  npm start
+  646  npm start
+  647  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  648  npm start
+  649  npm start
+  650  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  651  npm start
+  652  npm start
+  653  npm start
+  654  npm start
+  655  npm start
+  656  npm start
+  657  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  658  npm start
+  659  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  660  npm start
+  661  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  662  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  663  npm start
+  664  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  665  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  666  npm start
+  667  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  668  npm start
+  669  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  670  npm start
+  671  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  672  npm start
+  673  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  674  npm start
+  675  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  676  npm start
+  677  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  678  npm start
+  679  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  680  npm start
+  681  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  682  npm start
+  683  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  684  npm start
+  685  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleSubmitClick.js public/javascripts/handleSubmitClick.js 
+  686  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  687  npm start
+  688  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  689  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  690  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  691  npm start
+  692  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  693  npm start
+  694  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  695  npm start
+  696  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  697  npm start
+  698  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  699  npm start
+  700  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  701  npm start
+  702  npm start
+  703  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  704  npm start
+  705  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  706  npm start
+  707  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  708  npm start
+  709  ./node_modules/webpack/bin/webpack.js public/javascripts/src/handleTableClicks.js public/javascripts/handleTableClicks.js 
+  710  npm start
+  711  history
+  712  history > history.txt
