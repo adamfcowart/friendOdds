@@ -24,6 +24,7 @@
     "requestify": "^0.2.5",
     "requirejs": "^2.3.5",
     "serve-favicon": "~2.4.5",
+    "toastr": "^2.1.4",
     "webpack": "^3.10.0"
   },
   "main": "index.js",

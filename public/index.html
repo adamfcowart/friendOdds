@@ -1,7 +1,34 @@
-<html>
-<header><title>Friend Odds</title></header>
 
-<body>
-Landing Page for Friend Odds
-</body>
-</html>
+<html>
+    <header><title>Friend Odds</title></header>
+    
+    
+    <body>
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    
+        <table id="tblData">
+            <tr>
+                <th>Spread</th>
+                <th>Money Line</th>
+                <th>Over / Under</th>
+            </tr>
+        </table>
+        <br/>
+        <span id="spnText"></span>
+    
+        <b>Name:</b> <input id="inputUsername" type="text" name="Username"><br>
+        <input id="submitButton" type="submit" value="Submit Selections"/>
+        <input id="deleteButton" type="submit" value="Delete Previous Selections"/>
+    
+    </body>
+    
+    <script src="javascripts/createBetsTable.js"></script>
+    <script src="javascripts/handleTableClicks.js"></script>
+    
+    </html>
+    
+    

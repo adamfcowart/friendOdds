@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Open Sans",Helvetica,Arial,Lucida,sans-serif;
 }
 
 a {
@@ -8,7 +8,7 @@ a {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: 12px "Open Sans",Helvetica,Arial,Lucida,sans-serif;
   border-collapse: collapse;
   width: 100%;
  }
@@ -28,6 +28,6 @@ table {
   background-color: #ddeedd;
  } */
  .highlight {
-  background-color: Yellow;
-  color: Green;
+  background-color: lightblue;
+  color: black;
  }

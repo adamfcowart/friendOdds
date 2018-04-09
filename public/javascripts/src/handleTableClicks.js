@@ -1,5 +1,6 @@
 var clickedCells = new Array;
 var requestify = require('requestify'); 
+var toastr = require('toastr')
 
 $(document).ready(function() {
 
@@ -55,30 +56,85 @@ function handleTheClick() {
   var inputUsername = document.getElementById("inputUsername").value
   numSelected = clickedCells.length;
   
-  for (i = 0; i < numSelected; i++) {
-    requestify.request('http://104.238.124.110:3000/predictions', {
-    method: 'POST',
-    body: {
-      Username: inputUsername,
-      Prediction: clickedCells[i]
-    },
-    dataType: 'json'		
-    })
-    .then(function(response) {
-      // get the response body
-      response.getBody();
-    
-      // get the response headers
-      response.getHeaders();
-    
-      // get specific response header
-      response.getHeader('Accept');
-     
-      // get the code
-      response.getCode();
-      
-      // get the raw response body
-      response.body;
-    })
+  if (inputUsername == ""){
+    toastr.error('You must enter a username to save')
   }
-};
+  else if(clickedCells.length == 0){
+    toastr.error('You must make a selection to save')
+  }
+  else{
+
+    for (i = 0; i < numSelected; i++) {
+      requestify.request('http://104.238.124.110/:3000/predictions', {
+      method: 'POST',
+      body: {
+        Username: inputUsername,
+        Prediction: clickedCells[i]
+      },
+      dataType: 'json'		
+      })
+      .then(function(response) {
+        // get the response body
+        response.getBody();
+      
+        // get the response headers
+        response.getHeaders();
+      
+        // get specific response header
+        response.getHeader('Accept');
+      
+        // get the code
+        response.getCode();
+        
+        // get the raw response body
+        response.body;
+      })
+    }
+    
+    toastr.success('Save successful')
+  }
+}
+// handle the delete previous selections action
+document.getElementById("deleteButton").addEventListener("click", handleTheDeleteClick)
+
+function handleTheDeleteClick() {
+  
+  var inputUsername = document.getElementById("inputUsername").value
+  
+  if (inputUsername == ""){
+    toastr.error('You must enter a username to delete')
+  }
+  
+  else{
+      console.log("calling delete")
+      requestify.request('http://104.238.124.110/:3000/deletePredictions', {
+      method: 'POST',
+      body: {
+        Username: inputUsername,
+        Prediction: clickedCells[i]
+      },
+      dataType: 'json'		
+      })
+      .then(function(response) {
+        // get the response body
+        response.getBody();
+      
+        // get the response headers
+        response.getHeaders();
+      
+        // get specific response header
+        response.getHeader('Accept');
+      
+        // get the code
+        response.getCode();
+        
+        // get the raw response body
+        response.body;
+      })
+  
+    
+    toastr.success('Delete successful')
+  }
+}
+  
+
