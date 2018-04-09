@@ -42,7 +42,7 @@ fetch('http://104.238.124.110:3000/games')
             $('#tblData').find("tr:last").after(    
                 tabelajzing([[
                     "",
-                    "Draw " + exjson[exKey].drawOdds,
+                    exjson[exKey].drawOdds,
                     ""
                 ]])
             );
