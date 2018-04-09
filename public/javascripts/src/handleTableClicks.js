@@ -111,7 +111,7 @@ function handleTheDeleteClick() {
       method: 'POST',
       body: {
         Username: inputUsername,
-        Prediction: clickedCells[i]
+        Prediction: "irrelevant"
       },
       dataType: 'json'		
       })

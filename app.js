@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var games=require('./routes/games');
 var predictions=require('./routes/predictions');
 var deletePredictions=require('./routes/deletePredictions');
+var getPredictions=require('./routes/getPredictions');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -33,6 +34,7 @@ app.use(cors());
 app.use('/games',games);
 app.use('/predictions',predictions);
 app.use('/deletePredictions',deletePredictions);
+app.use('/getPredictions',getPredictions);
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
