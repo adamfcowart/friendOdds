@@ -20022,7 +20022,7 @@ function handleTheClick() {
   else{
 
     for (i = 0; i < numSelected; i++) {
-      requestify.request('http://104.238.124.110/:3000/predictions', {
+      requestify.request('http://104.238.124.110:3000/predictions', {
       method: 'POST',
       body: {
         Username: inputUsername,
@@ -20064,7 +20064,7 @@ function handleTheDeleteClick() {
   
   else{
       console.log("calling delete")
-      requestify.request('http://104.238.124.110/:3000/deletePredictions', {
+      requestify.request('http://104.238.124.110:3000/deletePredictions', {
       method: 'POST',
       body: {
         Username: inputUsername,
