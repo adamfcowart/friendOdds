@@ -4,7 +4,7 @@ var toastr = require('toastr')
 
 $(document).ready(function() {
   
-  var fetchUrl = "http://localhost:3000/getPredictions?username=" + localStorage.getItem("authenticatedUsername")
+  var fetchUrl = "http://104.238.124.110:3000/getPredictions?username=" + localStorage.getItem("authenticatedUsername")
 
   fetch(fetchUrl)
   .then(function(res) {
@@ -88,7 +88,7 @@ function handleTheClick() {
   }
   else{
 
-      requestify.request('http://localhost:3000/deletePredictions', {
+      requestify.request('http://104.238.124.110:3000/deletePredictions', {
       method: 'POST',
       body: {
         Username: localStorage.getItem("authenticatedUsername"),
@@ -119,7 +119,7 @@ function handleTheClick() {
     for (i = 0; i < numSelected; i++) {
     
 
-      requestify.request('http://localhost:3000/predictions', {
+      requestify.request('http://104.238.124.110:3000/predictions', {
       method: 'POST',
       body: {
         Username: inputUsername,
