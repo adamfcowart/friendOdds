@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 var router = express.Router();
 
-// return all predictions in the database
+// return all predictions for a user
 router.get('/',function(req,res,next){
 
     getPredictions.getAllPredictions(req.query.username,function(err,rows){
