@@ -7908,19 +7908,12 @@ __webpack_require__(16).inherits(FetchError, Error);
 
 const fetch = __webpack_require__(33);
 
-// tableajzing adds rows to the table
-function tabelajzing(a){ 
-    return [
-        "<tr>\n<td>",
-        a.map(function (e, i) {  
-         return e.join("</td>\n<td>")
-        }).join("</td></tr>\n<tr>\n<th>"),
-        "</td>\n</tr>\n"
-      ].join("")
-    }
+window.addEventListener("load", afterLoad)
 
+function afterLoad() {
 // call our hosted API - maybe this should be localhost
-fetch('http://localhost:3000/games')
+console.log("making api call")
+fetch('http://localhost:3000/reportGetPredictions')
     .then(function(res) {
         return res.json();
     }).then(function(json) {
@@ -7929,35 +7922,20 @@ fetch('http://localhost:3000/games')
 
             // loop through each JSON record and add the line to the table
            for(var exKey in exjson) {
-
-            $('#tblData').find("tr:last").after(    
-                tabelajzing([[
-                    exjson[exKey].homeSpread + " (" + exjson[exKey].homeSpreadOdds + ")",
-                    exjson[exKey].homeMoneyLineOdds,
-                    exjson[exKey].over + " (" + exjson[exKey].overOdds + ")"
-                ]])
-            );
-
-            $('#tblData').find("tr:last").after(    
-                tabelajzing([[
-                    exjson[exKey].awaySpread + " (" + exjson[exKey].awaySpreadOdds + ")",
-                    exjson[exKey].awayMoneyLineOdds,
-                    exjson[exKey].under + " (" + exjson[exKey].underOdds + ")"
-                ]])
-            );
-
-            $('#tblData').find("tr:last").after(    
-                tabelajzing([[
-                    "",
-                    exjson[exKey].drawOdds,
-                    ""
-                ]])
-            );
+                console.log("for loop #" + exjson[exKey].prediction)
+                
+                var para = document.createElement("P");                       // Create a <p> element
+                var t = document.createTextNode("Number of Selections = " + exjson[exKey].number + " / Pick = " + exjson[exKey].prediction);       // Create a text node
+                para.appendChild(t); 
+                document.getElementById("loadDiv").appendChild(para);      
 
         } 
 
-    });
 
+    });
+}
+
+    
 
 /***/ }),
 /* 33 */

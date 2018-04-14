@@ -3,6 +3,29 @@ var requestify = require('requestify');
 var toastr = require('toastr')
 
 $(document).ready(function() {
+  
+  var fetchUrl = "http://localhost:3000/getPredictions?username=" + localStorage.getItem("authenticatedUsername")
+
+  fetch(fetchUrl)
+  .then(function(res) {
+      return res.json();
+  }).then(function(json) {
+    
+    predictionsJson = json
+    jLen = predictionsJson.length
+    
+  
+    for (i = 0; i < jLen; i++) {
+      if(predictionsJson[i].prediction != ""){
+      clickedCells.push(predictionsJson[i].prediction)  
+      
+      highlightCell = jQuery("td:contains(" + predictionsJson[i].prediction + ")");
+      highlightCell.addClass("highlight");
+      }
+    
+    }
+  
+  });  
 
   $("#tblData").mouseover(function(e) {
     $(this).css("cursor", "pointer");
@@ -43,6 +66,7 @@ $(document).ready(function() {
 
       clickedCells.push(clickedCell.text())
       clickedCell.addClass("highlight");
+      
     }
 
   });
@@ -53,9 +77,9 @@ document.getElementById("submitButton").addEventListener("click", handleTheClick
 
 function handleTheClick() {
   
-  var inputUsername = document.getElementById("inputUsername").value
+  var inputUsername = localStorage.getItem("authenticatedUsername")
   numSelected = clickedCells.length;
-  
+
   if (inputUsername == ""){
     toastr.error('You must enter a username to save')
   }
@@ -64,53 +88,10 @@ function handleTheClick() {
   }
   else{
 
-    for (i = 0; i < numSelected; i++) {
-      requestify.request('http://104.238.124.110:3000/predictions', {
+      requestify.request('http://localhost:3000/deletePredictions', {
       method: 'POST',
       body: {
-        Username: inputUsername,
-        Prediction: clickedCells[i]
-      },
-      dataType: 'json'		
-      })
-      .then(function(response) {
-        // get the response body
-        response.getBody();
-      
-        // get the response headers
-        response.getHeaders();
-      
-        // get specific response header
-        response.getHeader('Accept');
-      
-        // get the code
-        response.getCode();
-        
-        // get the raw response body
-        response.body;
-      })
-    }
-    
-    toastr.success('Save successful')
-  }
-}
-// handle the delete previous selections action
-document.getElementById("deleteButton").addEventListener("click", handleTheDeleteClick)
-
-function handleTheDeleteClick() {
-  
-  var inputUsername = document.getElementById("inputUsername").value
-  
-  if (inputUsername == ""){
-    toastr.error('You must enter a username to delete')
-  }
-  
-  else{
-      console.log("calling delete")
-      requestify.request('http://104.238.124.110:3000/deletePredictions', {
-      method: 'POST',
-      body: {
-        Username: inputUsername,
+        Username: localStorage.getItem("authenticatedUsername"),
         Prediction: "irrelevant"
       },
       dataType: 'json'		
@@ -130,10 +111,45 @@ function handleTheDeleteClick() {
         
         // get the raw response body
         response.body;
+
+        
+      })
+
+    
+    for (i = 0; i < numSelected; i++) {
+    
+
+      requestify.request('http://localhost:3000/predictions', {
+      method: 'POST',
+      body: {
+        Username: inputUsername,
+        Prediction: clickedCells[i]
+      },
+      dataType: 'json'		
+      })
+      .then(function(response) {
+        // get the response body
+        response.getBody();
+        console.log("success" + [i])
+      
+        // get the response headers
+        response.getHeaders();
+      
+        // get specific response header
+        response.getHeader('Accept');
+      
+        // get the code
+        response.getCode();
+        
+        // get the raw response body
+        response.body;
       })
   
+
+    }
     
-    toastr.success('Delete successful')
+    
+    toastr.success('Save successful')
   }
 }
   

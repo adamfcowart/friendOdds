@@ -1,31 +1,29 @@
 var express = require('express');
 var app=express()
 var bodyParser = require('body-parser');
-var getPredictions=require('../models/getPredictions');
+var login=require('../models/login');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var router = express.Router();
 
-// return all predictions in the database
-router.get('/',function(req,res,next){
+// login
+router.post('/',bodyParser.json({ type: 'application/json' }),function(req,res){
+    
+        login.login(req.body,function(err,rows){
 
-    getPredictions.getAllPredictions(req.query.username,function(err,rows){
 
         if(err)
         {
             res.json(err);
-            console.log("err");
         }
         else
         {
             res.json(rows);
-            console.log("noerr")
         }
-    
+
     })
 });
-
-
+    
 module.exports=router;

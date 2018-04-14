@@ -13,7 +13,7 @@ function tabelajzing(a){
     }
 
 // call our hosted API - maybe this should be localhost
-fetch('http://104.238.124.110:3000/games')
+fetch('http://localhost:3000/games')
     .then(function(res) {
         return res.json();
     }).then(function(json) {
@@ -49,7 +49,4 @@ fetch('http://104.238.124.110:3000/games')
 
         } 
 
-
     });
-
-    

@@ -13,13 +13,24 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     
-        <b>Username:</b> <input id="loginInputUsername" type="text" name="loginUsername"><br>
-        <b>Password:</b> <input id="loginInputPassword" type="text" name="loginPassword"><br>
-        <input id="loginButton" type="submit" value="Login"/>
+        <table id="tblData">
+            <tr>
+                <th>Spread</th>
+                <th>Money Line</th>
+                <th>Over / Under</th>
+            </tr>
+        </table>
+        <br/>
+        <span id="spnText"></span>
+
+        <input id="submitButton" type="submit" value="Submit Selections"/>
+        <input type="button" value="Logout" onclick="window.location.href='http://localhost:3000'" />
+        
     
     </body>
     
-    <script src="javascripts/login.js"></script>
+    <script src="javascripts/createBetsTable.js"></script>
+    <script src="javascripts/handleTableClicks.js"></script>
     
     </html>
     

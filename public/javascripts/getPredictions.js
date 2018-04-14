@@ -7913,7 +7913,7 @@ window.addEventListener("load", afterLoad)
 function afterLoad() {
 // call our hosted API - maybe this should be localhost
 console.log("making api call")
-fetch('http://104.238.124.110:3000/getPredictions')
+fetch('http://localhost:3000/getPredictions')
     .then(function(res) {
         return res.json();
     }).then(function(json) {
