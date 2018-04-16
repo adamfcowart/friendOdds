@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Open Sans",Helvetica,Arial,Lucida,sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+  font-family: 12px "Open Sans",Helvetica,Arial,Lucida,sans-serif;
+  border-collapse: collapse;
+  border-spacing:0;
+  border:0;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+ }
+ td {
+  border:0 none;
+  padding:2px;
+  text-align:left; 
+ }
+ th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 1px;
+ }
+ th {
+  background-color: #ccd;
+ }
+ tr:nth-child(3n+4) {
+  border-bottom: 3pt solid black;
+ }
+/*  tr:nth-child(odd) {
+  background-color: #ddeedd;
+ } */
+ .highlight {
+  background-color: lightblue;
+  color: black;
+ }
