@@ -1,40 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <header><title>Friend Odds</title></header>
+  <head>
 
-    <head>
-        <link rel="shortcut icon" href="http://104.238.124.110:3000/favicon.ico" type='image/x-icon'/>
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Friend Odds</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/grayscale.min.css" rel="stylesheet">
+    <link href="stylesheets/login.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Friend Odds</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Friend Odds</h1>
+              <p class="intro-text">Work with your friends to beat the bookie.</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Friend Odds</h2>
+            <p>Friend Odds is a way to work togethers to improve the odds in sports betting.</p>
+            <p>Each person logs in and makes their picks, then after all picks are in, the selection percentage of each pick is reported to guide your bets for the week..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Create an Account</h2>
+          <p>Account Creation Coming Soon</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Login</h2>
+            <p>
+            <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                <TR>
+                <TD><b>Username:</b></TD>
+                <TD><input id="loginInputUsername" type="text" name="loginUsername"></TD>
+                </TR>
     
-    <body>
+                <TR>
+                <TD><b>Password:</b></TD>
+                <TD><input id="loginInputPassword" type="text" name="loginPassword"><br></TD>
+                </TR>
     
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="stylesheets/login.css">
-    
-        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
-            <TR>
-            <TD><b>Username:</b></TD>
-            <TD><input id="loginInputUsername" type="text" name="loginUsername"></TD>
-            </TR>
-
-            <TR>
-            <TD><b>Password:</b></TD>
-            <TD><input id="loginInputPassword" type="text" name="loginPassword"><br></TD>
-            </TR>
-
-        </TABLE>
+            </TABLE>
+            </p>
         
-        <br>
 
-        <input id="loginButton" type="submit" value="Login"/>
-        <input type="button" value="View Results" onclick="window.location.href='http://104.238.124.110:3000/reportGetResults.html'" />
+            <input id="loginButton" type="submit" value="Login"/>
+            <input type="button" value="View Results" onclick="window.location.href='http://104.238.124.110:3000/reportGetResults.html'" />
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <footer>
+      <div class="container text-center">
         
-    </body>
-    
-    <script src="javascripts/login.js"></script>
-    
-    </html>
-    
-    
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+  <script src="javascripts/login.js"></script>
+
+</html>
