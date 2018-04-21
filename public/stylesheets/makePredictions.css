@@ -15,26 +15,26 @@ table {
   width: 250px;
   text-align: center;
   margin: 0 auto;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
  }
  td {
   border:0 none;
   padding:2px;
   text-align:left; 
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
  }
  th {
   border: 0px solid #dddddd;
   text-align: left;
   padding: 1px;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
  }
  th {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
  }
  tr:nth-child(3n+4) {
   border-bottom: 3pt solid black;
