@@ -42,11 +42,13 @@ function handleLogin() {
           toastr.error('Login Failed')
         }
         console.log("after else")
+        toastr.error('Login Failed')
         // get the response headers
         response.getHeaders();
       
         // get specific response header
         response.getHeader('Accept');
+      
       
         // get the code
         response.getCode();
