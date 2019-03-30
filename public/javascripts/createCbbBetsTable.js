@@ -7919,6 +7919,8 @@ function tabelajzing(a){
       ].join("")
     }
 
+console.log("start of createCBBBetsTable.js")
+
 // call our hosted API - maybe this should be localhost
 fetch('http://104.238.124.110:3000/cbbGames')
     .then(function(res) {
@@ -7956,6 +7958,7 @@ fetch('http://104.238.124.110:3000/cbbGames')
 
         } 
 
+        console.log("end of createCBBBetsTable.js")
     });
 
 
