@@ -19959,6 +19959,8 @@ var clickedCells = new Array;
 var requestify = __webpack_require__(29); 
 var toastr = __webpack_require__(56)
 
+console.log("before document ready")
+
 $(document).ready(function() {
   
   console.log("before calling getPredictions")

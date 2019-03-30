@@ -2,6 +2,8 @@ var clickedCells = new Array;
 var requestify = require('requestify'); 
 var toastr = require('toastr')
 
+console.log("before document ready")
+
 $(document).ready(function() {
   
   console.log("before calling getPredictions")
