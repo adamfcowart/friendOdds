@@ -2,7 +2,7 @@ var db=require('../dbconnection'); //reference of dbconnection.js
  
 var games={
  
-    getAllGames:function(callback){ 
+    getAllCbbGames:function(callback){ 
         return db.query("select * from games where sport = 'CBB'",callback);
     }
 
