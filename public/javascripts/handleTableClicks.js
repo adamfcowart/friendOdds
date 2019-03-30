@@ -19961,7 +19961,9 @@ var toastr = __webpack_require__(56)
 
 $(document).ready(function() {
   
+  console.log("before calling getPredictions")
   var fetchUrl = "http://104.238.124.110:3000/getPredictions?username=" + localStorage.getItem("authenticatedUsername")
+  console.log("after calling getPredictions")
 
   fetch(fetchUrl)
   .then(function(res) {
