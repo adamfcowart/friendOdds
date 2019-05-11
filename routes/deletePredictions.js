@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 var router = express.Router();
 
-// add a prediction
+// add a prediction ac
 router.post('/',bodyParser.json({ type: 'application/json' }),function(req,res){
     
         deletePredictions.deletePredictions(req.body,function(err,rows){
